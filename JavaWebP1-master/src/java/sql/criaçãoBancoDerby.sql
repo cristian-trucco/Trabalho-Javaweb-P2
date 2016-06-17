@@ -1,0 +1,20 @@
+CREATE DATABASE BrJavaP1;
+
+USE BrJavaP1;
+
+CREATE TABLE USUARIO (
+  USUARIO varchar(20) NOT NULL,
+  SENHA varchar(20) NOT NULL,
+  
+); 
+
+INSERT INTO USUARIO  VALUES ('fulano','12345')
+
+CREATE TABLE  PEDIDOS  (
+   CODIGO  INT NOT NULL,
+   CLIENTE  varchar(40) NOT NULL,
+   ENDERECO  varchar(40) NOT NULL,
+   ESTADO       varchar(10) NOT NULL,
+    ITENS varchar(20) NOT NULL,
+    TOTAL varchar(10) NOT NULL,
+); 
